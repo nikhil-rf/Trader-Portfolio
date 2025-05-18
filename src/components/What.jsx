@@ -1,27 +1,33 @@
 import React from 'react';
 import TradeCard from './what/TradeCard';
+import Resource1 from '../assets/resource1.jpg';
+import Resource2 from '../assets/resource2.jpg';
+
 
 function What() {
   const tradeInfo = [
-    {
-      title: "Stock/Equity Trading",
-      points: [
-        "Focus on large-cap stocks with high liquidity",
-        "Technical analysis combined with fundamental catalysts",
-        "Risk management through position sizing and stop-losses",
-        "Swing trading opportunities for longer-term positions"
-      ]
-    },
-    {
-      title: "Day Trading",
-      points: [
-        "Short-term opportunities in volatile markets",
-        "Price action and volume analysis",
-        "Scalping and momentum trading strategies",
-        "Real-time market analysis and quick decision making"
-      ]
-    }
-  ];
+  {
+    title: "Stock/Equity Trading",
+    points: [
+      "Focus on large-cap stocks with high liquidity",
+      "Technical analysis combined with fundamental catalysts",
+      "Risk management through position sizing and stop-losses",
+      "Swing trading opportunities for longer-term positions"
+    ],
+    image: Resource1, 
+  },
+  {
+    title: "Day Trading",
+    points: [
+      "Short-term opportunities in volatile markets",
+      "Price action and volume analysis",
+      "Scalping and momentum trading strategies",
+      "Real-time market analysis and quick decision making"
+    ],
+    image: Resource2, 
+  }
+];
+
 
   return (
     <section className="bg-white py-16 px-4 md:px-20">
