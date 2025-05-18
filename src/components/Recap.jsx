@@ -1,7 +1,7 @@
 import React from 'react';
 import RecapCard from './recap/RecapCard';
 import chopstickImg from '../assets/chopstick.svg';
-import doubleBottomImg from '../assets/double-bottom.svg';
+import doubleBottomImg from '../assets/Double-ButtonSVG.svg';
 import triangleImg from '../assets/triangle.svg';
 
 
